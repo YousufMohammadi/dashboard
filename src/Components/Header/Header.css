@@ -1,0 +1,72 @@
+.header-container{
+    width: 100%;
+    height: 60px;
+    background-color: #edf2f9;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.menu{
+    color: #000;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.brand{
+    color: rgb(44 123 229);
+}
+.search-container{
+    width: 21rem;
+    position: relative;
+}
+.search-container input{
+    width: 100%; 
+    padding: 5px 30px;
+    border: 1px solid #d8e2ef;
+    outline: none;
+    background-color: #fff;
+}
+.search-container input:focus{
+    outline: 1px solid #1da1f2;
+}
+.search-container input::placeholder{
+    font-weight: 600;
+}
+.search-container .search-icon{
+    position: absolute;
+    left: 3%;
+    top: 25%;
+}
+.header-icon{
+    font-size: 20px;
+    color: rgb(0 0 0 / 55%);
+    text-decoration: none;
+    position: relative;
+}
+.header-icon:hover{
+    color: rgb(0 0 0 / 70%);
+}
+.notification{
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    font-size: 9px;
+    font-weight: bold;
+    background-color: #dd4b39;
+    color: #fff;
+    width: 14px;
+    height: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.notification-bill{
+    background-color: #1da1f2;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+}
