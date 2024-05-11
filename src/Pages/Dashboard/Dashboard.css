@@ -1,0 +1,30 @@
+.dashboard-container{
+    width: 100%;
+    min-height: 100vh;
+    color: aliceblue;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: aquamarine;
+}
+.content{
+    width: calc(100% - 260px);
+    background-color: #edf2f9 ; 
+    color: #000;
+    margin-top: 60px;
+    margin-left: auto;
+    padding: 20px ;
+}
+.dashboard-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.test{
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+}

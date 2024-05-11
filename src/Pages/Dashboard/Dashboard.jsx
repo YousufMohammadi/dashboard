@@ -1,12 +1,13 @@
 import React from 'react'
 import Header from '../../Components/Header/Header'
 import SideBar from '../../Components/SideBar/SideBar'
-
-export default function Home() {
+import "../Dashboard/Dashboard.css"
+export default function Dashboard() {
   return (
-    <div className='home-container d-flex flex-column '>
+    <div className='dashboard-container'>
         <Header />
         <SideBar />
+        <div className="content"></div>
     </div>
   )
 }
