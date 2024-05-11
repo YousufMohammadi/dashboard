@@ -7,8 +7,7 @@ import { FaMoon,FaShoppingCart } from "react-icons/fa";
 import "../Header/Header.css"
 export default function Header() {
   return (
-    <header className='header-container d-flex flex-row justify-content-between align-items-center'>
-        <div className="container d-flex flex-row justify-content-between align-items-center">
+    <header className='header-container px-3 d-flex flex-row justify-content-between align-items-center'>
         <div className="d-flex flex-row justify-content-start align-items-center gap-3">
         <IconButton sx={{ p: '10px' }} aria-label="menu">
         <MenuIcon />
@@ -27,7 +26,6 @@ export default function Header() {
             <a href="#" className='header-icon'><FaShoppingCart /> <span className='notification'>3</span></a>
             <a href="#" className='header-icon'><IoNotifications /> <span className='notification notification-bill'>3</span></a>
             <a href="#"><img src="profile.png" alt="profile" className='profile rounded-circle' /></a>
-        </div>
         </div>
     </header>
   )
